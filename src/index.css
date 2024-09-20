@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.body{
+  min-height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  font-size: 2rem;
+  margin: 2vh;
+  border: 2px solid rgb(1,17,160);
+  border-radius: 20px;
+  padding: 3vh ;
+}
+.card{
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+.cards{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px; 
+}
+.image{
+  width: 380px;
+  /* aspect-ratio: 1/1; */
+  object-fit: cover;
+}
+.tour-info{
+  margin: 20px5px;
+}
+.h2{
+  color: rgb(163, 14, 83);
+}
+.name{
+  font-size: 2rem;
+}
+.readmore{
+  color: brown;
+  cursor: pointer;
+}
+.button{
+  background-color: red;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+.button2{
+  margin: 16px;
+  padding: 10px 80px;
+  border: 1px solid wheat ;
+  cursor: pointer;
+
+}
+.myclick:hover{
+  background-color: darksalmon;
 }
